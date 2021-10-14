@@ -3,6 +3,8 @@ package com.gulraiz;
 import java.util.Arrays;
 
 public class SetMatrixZeroes {
+    // Question Link:
+    // https://leetcode.com/problems/set-matrix-zeroes
     public static void main(String[] args) {
         int[][] matrix = {
                 {0,1,2,0},
@@ -14,6 +16,7 @@ public class SetMatrixZeroes {
 
     // Method-1:
     // Brute Force Solution without Constant Space.
+    /*
     static void setZero(int[][] matrix) {
         int[][] ans = new int[matrix.length][matrix[0].length];
         for (int i=0; i< matrix.length; i++) {
@@ -45,7 +48,7 @@ public class SetMatrixZeroes {
             matrix[i][j] = 0;
         }
     }
-
+     */
 
     // Method-2:
     // Optimized Solution with Constant Space.
