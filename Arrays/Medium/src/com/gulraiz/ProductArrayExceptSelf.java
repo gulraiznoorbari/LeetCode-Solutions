@@ -9,6 +9,7 @@ public class ProductArrayExceptSelf {
     }
 
 //    Method-1:
+    /*
     static int[] productArray(int[] nums) {
         int[] ans = new int[nums.length];
         int left = 1;
@@ -24,6 +25,7 @@ public class ProductArrayExceptSelf {
         }
         return ans;
     }
+     */
 
 //    Method-2:
 //    Use tmp to store temporary multiply result by two directions. Then fill it into result.
